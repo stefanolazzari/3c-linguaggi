@@ -9,19 +9,7 @@ function saluto(){
 
 saluto(); //chiamata alla funzione
 
-function somma(a,b){
-    return a + b;
-}
 
-function moltiplizione(a,b){
-    return a * b;
-}
-
-function calcolo(a,b,operazione){
-
-    return operazione(a,b);
-
-}
 
 
 //dichiarazione di funzione
