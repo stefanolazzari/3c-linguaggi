@@ -112,6 +112,6 @@ function calcolo(valore1, valore2, tipoDiCalcolo){
 
 
 console.log(calcolo(70,60,sottrazione));
-
+console.log(calcolo(70,60,somma))
 
 
