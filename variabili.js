@@ -30,7 +30,8 @@ const pigreco = 3.14;
 
 console.log("pi: " + pigreco);
 
-pigreco = 3.15;
+pigreco = 3.15; //errore
+
 
 
 

@@ -1,5 +1,8 @@
 
 
+alert("Ciao");
+
+
 
 //dichiarazione di funzione
 function saluto(){
@@ -18,23 +21,16 @@ function saluto(){
 }
 //chiamata alla funzione
 saluto(); //chiamata alla funzione
-saluto(); //
-saluto();
-saluto();
+saluto()
+saluto()
+saluto()
+saluto()
 
 
 
+//console.log(calcolo(3,6,somma));
 
-
-
-
-
-
-
-
-console.log(calcolo(3,6,somma));
-
-console.log(calcolo(3,6,moltiplizione));
+//console.log(calcolo(3,6,moltiplizione));
 
 
 
@@ -75,15 +71,47 @@ console.log(miaVariabile); //90
 const costante1 = 9.18;
 }
 
-console.log(costante1); //9.18
+//console.log(costante1); //9.18
 
-costante1 = 80; //errore 
+//costante1 = 80; //errore 
 
-console.log(costante1); //errore
-
-
+//console.log(costante1); //errore
 
 
+
+let a = 5;    //5
+let b = 10;   //10
+
+
+a = a + b;  //15
+
+
+b = a - b; //5
+
+a = a -b;
+
+console.log("Valore di a " + a);
+console.log("Valore di b " + b);
+
+
+
+
+function somma(valore1,valore2){
+        return valore1 + valore2;
+}
+
+function sottrazione(valore1,valore2){
+    return valore1 - valore2;
+}
+
+
+function calcolo(valore1, valore2, tipoDiCalcolo){
+        let risultato = tipoDiCalcolo(valore1,valore2);
+        return risultato;
+}
+
+
+console.log(calcolo(70,60,sottrazione));
 
 
 
